@@ -1,0 +1,33 @@
+[packages]
+
+[packages.obz_2025]
+
+path = "https://raw.githubusercontent.com/splor-mg/dados-obz-2025/main/datapackage.json"
+token = "GITHUB_PAT"
+
+[packages.siafi_2024]
+
+path = "https://raw.githubusercontent.com/splor-mg/armazem-siafi-dados-2024/main/datapackage.json"
+resources = ["execucao"]
+token = "GITHUB_PAT"
+
+[packages.siafi_2023]
+
+path = "https://raw.githubusercontent.com/splor-mg/armazem-siafi-dados-2023/main/datapackage.json"
+resources = ["execucao"]
+token = "GITHUB_PAT"
+
+[packages.programacoes_anuais]
+
+path = "https://raw.githubusercontent.com/splor-mg/dados-programacoes-anuais/main/datapackage.json"
+token = "GITHUB_PAT"
+
+[packages.reestimativa]
+
+path = "https://raw.githubusercontent.com/splor-mg/dados-reestimativa/main/datapackage.json"
+token = "GITHUB_PAT"
+
+[packages.aux_classificadores]
+
+path = "https://raw.githubusercontent.com/splor-mg/dados-aux-classificadores/main/datapackage.json"
+resources = ["acao", "elemento_item", "uo"]

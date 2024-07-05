@@ -1,0 +1,7 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+venv/
+datapackages/
+programacoes-anuais.csv

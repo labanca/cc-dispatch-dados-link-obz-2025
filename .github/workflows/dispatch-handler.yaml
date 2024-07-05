@@ -1,0 +1,15 @@
+name: Dispatch Handler
+
+on:
+  repository_dispatch:
+    types: [trigger-workflow]
+
+jobs:
+  handle-dispatch:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v4
+    # Add steps to handle the dispatch event
+    - name: Run script
+      run: echo "Repository dispatch event triggered!"
